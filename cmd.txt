@@ -1,0 +1,314 @@
+Estudiante@T1-606-11 MINGW64 ~
+$  git config --global user.name "gamtojafer"
+
+Estudiante@T1-606-11 MINGW64 ~
+$  git config --global user.email gamtojafer@hotmail.com
+
+Estudiante@T1-606-11 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=gamtojafer
+user.email=gamtojafer@hotmail.com
+
+Estudiante@T1-606-11 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Estudiante/.git/
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ ls
+ AppData/
+'Cisco Packet Tracer 6.2iv'/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+'My Documents'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.0.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.1.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.2.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               1.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               2.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ dir
+AppData
+Cisco\ Packet\ Tracer\ 6.2iv
+Configuración\ local
+Contacts
+Cookies
+Datos\ de\ programa
+Desktop
+Documents
+Downloads
+Entorno\ de\ red
+Favorites
+Impresoras
+IntelGraphicsProfiles
+Links
+Menú\ Inicio
+Mis\ documentos
+Music
+My\ Documents
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.0.regtrans-ms
+NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.1.regtrans-ms
+NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.2.regtrans-ms
+NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.blf
+NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000001                               .regtrans-ms
+NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000002                               .regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+Plantillas
+Reciente
+Saved\ Games
+Searches
+SendTo
+Videos
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ cd
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ cd..
+bash: cd..: command not found
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ ..cd
+bash: ..cd: command not found
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ cd videos
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ ls
+desktop.ini
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ cd..
+bash: cd..: command not found
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ ..cd
+bash: ..cd: command not found
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ cd..
+bash: cd..: command not found
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ pwd
+/c/Users/Estudiante/videos
+
+Estudiante@T1-606-11 MINGW64 ~/videos (master)
+$ cd
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ pwd
+/c/Users/Estudiante
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ ls
+ AppData/
+'Cisco Packet Tracer 6.2iv'/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+'My Documents'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.0.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.1.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.2.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               1.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               2.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ cd desktop
+
+Estudiante@T1-606-11 MINGW64 ~/desktop (master)
+$ mkdir fer
+
+Estudiante@T1-606-11 MINGW64 ~/desktop (master)
+$ cd fer
+
+Estudiante@T1-606-11 MINGW64 ~/desktop/fer (master)
+$ pwd
+/c/Users/Estudiante/desktop/fer
+
+Estudiante@T1-606-11 MINGW64 ~/desktop/fer (master)
+$ cd..
+bash: cd..: command not found
+
+Estudiante@T1-606-11 MINGW64 ~/desktop/fer (master)
+$ ..cd
+bash: ..cd: command not found
+
+Estudiante@T1-606-11 MINGW64 ~/desktop/fer (master)
+$ cd
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ pwd
+/c/Users/Estudiante
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ ls
+ AppData/
+'Cisco Packet Tracer 6.2iv'/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+'My Documents'/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.0.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.1.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.2.regtrans-ms
+ NTUSER.DAT{f5b13603-4b48-11e6-80cb-e41d2d012050}.TxR.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               1.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer0000000000000000000                               2.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+Estudiante@T1-606-11 MINGW64 ~ (master)
+$ cd documents
+
+Estudiante@T1-606-11 MINGW64 ~/documents (master)
+$ pwd
+/c/Users/Estudiante/documents
+
+Estudiante@T1-606-11 MINGW64 ~/documents (master)
+$ mkdir adicional
+
+Estudiante@T1-606-11 MINGW64 ~/documents (master)
+$ pwd
+/c/Users/Estudiante/documents
+
+Estudiante@T1-606-11 MINGW64 ~/documents (master)
+$ ls
+ adicional/   desktop.ini  'Mi música'@  'Mis imágenes'@  'Mis vídeos'@
+
+Estudiante@T1-606-11 MINGW64 ~/documents (master)
+$ cd adicional
+ç
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ pwd
+/c/Users/Estudiante/documents/adicional
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ git init
+Initialized empty Git repository in C:/Users/Estudiante/documents/adicional/.git                               /
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ git config --global http.proxy http://129.1.1.1:3128
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ git clone https://github.com/gamtojafer/dos.git
+Cloning into 'dos'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ pwd
+/c/Users/Estudiante/documents/adicional
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ ls
+dos/
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional (master)
+$ cd dos
+
+Estudiante@T1-606-11 MINGW64 ~/documents/adicional/dos (master)
+$
